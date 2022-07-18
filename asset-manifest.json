@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/edenlets-web-built/static/js/main.4d04a803.js",
+    "static/media/apple.jpg": "/edenlets-web-built/static/media/apple.78584f36dea0189fc8fa.jpg",
+    "static/media/blog-post.1.md": "/edenlets-web-built/static/media/blog-post.1.0c315da1f0a7af641a3a.md",
+    "static/media/blog-post.2.md": "/edenlets-web-built/static/media/blog-post.2.bec33d7c8bf27858ce0c.md",
+    "index.html": "/edenlets-web-built/index.html",
+    "static/media/blog-post.3.md": "/edenlets-web-built/static/media/blog-post.3.0a90113db17c3659cca0.md",
+    "main.4d04a803.js.map": "/edenlets-web-built/static/js/main.4d04a803.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4d04a803.js"
+  ]
+}
