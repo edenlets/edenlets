@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/edenlets-web/static/js/main.48f6d35f.js",
-    "static/media/apple.jpg": "/edenlets-web/static/media/apple.78584f36dea0189fc8fa.jpg",
-    "static/media/blog-post.1.md": "/edenlets-web/static/media/blog-post.1.0c315da1f0a7af641a3a.md",
-    "static/media/blog-post.2.md": "/edenlets-web/static/media/blog-post.2.bec33d7c8bf27858ce0c.md",
-    "static/media/blog-post.3.md": "/edenlets-web/static/media/blog-post.3.0a90113db17c3659cca0.md",
-    "index.html": "/edenlets-web/index.html",
-    "main.48f6d35f.js.map": "/edenlets-web/static/js/main.48f6d35f.js.map"
+    "main.js": "./static/js/main.f4c2e427.js",
+    "static/media/apple.jpg": "./static/media/apple.78584f36dea0189fc8fa.jpg",
+    "static/media/blog-post.1.md": "./static/media/blog-post.1.0c315da1f0a7af641a3a.md",
+    "static/media/blog-post.2.md": "./static/media/blog-post.2.bec33d7c8bf27858ce0c.md",
+    "static/media/blog-post.3.md": "./static/media/blog-post.3.0a90113db17c3659cca0.md",
+    "index.html": "./index.html",
+    "main.f4c2e427.js.map": "./static/js/main.f4c2e427.js.map"
   },
   "entrypoints": [
-    "static/js/main.48f6d35f.js"
+    "static/js/main.f4c2e427.js"
   ]
 }
