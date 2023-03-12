@@ -12,25 +12,21 @@ function Header(props) {
 
   return (
     <React.Fragment>
-      <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Button size="small">Subscribe</Button>
-        <Typography
-          component="h2"
-          variant="h5"
-          color="inherit"
-          align="center"
-          noWrap
-          sx={{ flex: 1 }}
-        >
-          {title}
-        </Typography>
-        <IconButton>
+      <Toolbar sx={{paddingTop:'10px',paddingBottom:'10px',placeContent: 'center', borderBottom: 1, borderColor: 'divider' }}>
+        {/* <Button size="small">Subscribe</Button> */}
+        {title}
+        
+
+        
+        {/* <IconButton>
           <SearchIcon />
-        </IconButton>
-        <Button variant="outlined" size="small">
+        </IconButton> */}
+        {/* <Button variant="outlined" size="small">
           Sign up
-        </Button>
+        </Button> */}
       </Toolbar>
+
+
       <Toolbar
         component="nav"
         variant="dense"

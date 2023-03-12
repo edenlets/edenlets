@@ -1,7 +1,7 @@
 {
   "name": "create-react-app-with-styled-components",
   "version": "5.0.0",
-  "private": true,
+  "homepage": ".",
   "dependencies": {
     "@mui/icons-material": "^5.6.1",
     "@mui/lab": "latest",
@@ -10,6 +10,8 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "gh-pages": "^4.0.0",
+    "https-server": "^0.1.2",
     "markdown-to-jsx": "^7.1.7",
     "react": "latest",
     "react-dom": "latest",
@@ -23,7 +25,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -38,6 +42,9 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "latest"
+    "@craco/craco": "latest",
+    "craco-raw-loader": "^1.0.2",
+    "raw-loader": "^4.0.2",
+    "react-app-rewired": "^2.2.1"
   }
 }

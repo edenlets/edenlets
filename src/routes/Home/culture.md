@@ -1,4 +1,4 @@
-# Online Booking
+# Culture
 
 Enquiries and bookings can be made via [booking.com](https://www.booking.com/hotel/gb/eden-garden-luxury-lodges.en-gb.html)
 

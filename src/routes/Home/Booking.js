@@ -12,7 +12,9 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
+import post2 from './blog-post.2.md';
 import apple from '../../cabin.jpeg'
+import Markdown from './Markdown';
 
 const sections = [
   { title: 'Lodges', url: '/lodges' },
@@ -28,20 +30,28 @@ const mainFeaturedPost = {
   image: apple,
   imageText: 'The Ultimate Escape',
   linkText: 'Continue reading…',
-  link:"/about"
 };
 
 const featuredPosts = [
   {
     title: 'Online Booking',
+    date: 'Nov 12',
     description:
       'Book online with Booking.com',
     image: apple,
     imageLabel: 'Image Text',
-    link:"/booking"
+  },
+  {
+    title: 'Family Fun',
+    date: 'Nov 11',
+    description:
+      '',
+    image: apple,
+    imageLabel: 'Image Text',
   },
 ];
 
+const posts = [post2];
 
 const sidebar = {
   title: 'About',
@@ -70,21 +80,25 @@ import edenLogo from '../../edenlogo.svg'
 
 const theme = createTheme();
 
-export default function Blog() {
+export default function Post2() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title={<a  href="/"> <img src={edenLogo}/></a>} sections={sections} />
         <main>
-          <MainFeaturedPost post={mainFeaturedPost} />
+          {/* <MainFeaturedPost post={mainFeaturedPost} /> */}
           <Grid container spacing={4}>
-            {featuredPosts.map((post) => (
+            {/* {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
-            ))}
+            ))} */}
           </Grid>
           <Grid container spacing={5} sx={{ mt: 3 }}>
-            {/* <Main title="From the firehose" posts={posts} /> */}
+
+          {/* <Markdown className="markdown">
+          {}
+        </Markdown> */}
+            <Main title="Eden Garden Luxury Lodges" posts={posts} />
             {/* <Sidebar
               title={sidebar.title}
               description={sidebar.description}

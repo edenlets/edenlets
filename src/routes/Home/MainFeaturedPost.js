@@ -13,17 +13,14 @@ function MainFeaturedPost(props) {
     <Paper
       sx={{
         position: 'relative',
-        backgroundColor: 'grey.800',
-        color: '#fff',
+        // backgroundColor: 'grey.800',
+        color: 'grey.800',
         mb: 4,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        backgroundImage: `url(${post.image})`,
+
       }}
     >
       {/* Increase the priority of the hero background image */}
-      {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
+      {<img style={{ display: 'none'}}  src={post.image} alt={post.imageText} />}
       <Box
         sx={{
           position: 'absolute',
@@ -31,7 +28,13 @@ function MainFeaturedPost(props) {
           bottom: 0,
           right: 0,
           left: 0,
-          backgroundColor: 'rgba(0,0,0,.3)',
+          opacity: 0.3,
+          borderRadius:2,
+          backgroundColor: 'rgba(0,0,0,.7)',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          backgroundImage: `url(${post.image})`,
         }}
       />
       <Grid container>
@@ -49,7 +52,7 @@ function MainFeaturedPost(props) {
             <Typography variant="h5" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link variant="subtitle1" href="#">
+            <Link variant="subtitle1" href={post.link}>
               {post.linkText}
             </Link>
           </Box>
